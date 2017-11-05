@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/wp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="Exercises and Workout plans for each Muscle type."
+        android:text="Workout Plans"
+        tools:layout_editor_absoluteX="123dp"
+        tools:layout_editor_absoluteY="231dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        tools:text="Workout Plans"
+        android:layout_marginBottom="54dp"
+        android:layout_above="@+id/gs"
+        android:layout_alignLeft="@+id/gs"
+        android:layout_alignStart="@+id/gs" />
+
+    <Button
+        android:id="@+id/gs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="Your weekly gym schedule."
+        android:text="Gym Schedule"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="131dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        tools:text="Gym Schedule"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/es"
+        android:layout_alignStart="@+id/es" />
+
+    <Button
+        android:id="@+id/es"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="Set your weekly gym schedule."
+        android:elevation="0dp"
+        android:text="Edit Schedule"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="329dp"
+        android:layout_marginTop="54dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        tools:text="Edit Schedule"
+        android:layout_below="@+id/gs"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

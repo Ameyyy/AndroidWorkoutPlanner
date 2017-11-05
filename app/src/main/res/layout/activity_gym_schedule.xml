@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ameyparab.workouttracker.GymSchedule">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp"
+        android:layout_below="@+id/toolbar"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:isScrollContainer="false"
+            android:layoutMode="opticalBounds"
+            android:scrollbarStyle="outsideInset"
+            android:scrollbars="vertical"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp">
+
+            <TableRow
+                android:id="@+id/head"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:paddingBottom="0dp"
+                android:paddingTop="0dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginRight="0dp"
+                    android:layout_marginTop="0dp"
+                    android:maxWidth="120dp"
+                    android:minHeight="0dp"
+                    android:minWidth="120dp"
+                    android:text="Day"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginRight="0dp"
+                    android:layout_marginTop="0dp"
+                    android:maxWidth="120dp"
+                    android:minHeight="0dp"
+                    android:minWidth="120dp"
+                    android:text="Muscle"
+                    android:textAlignment="center"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/mon"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:paddingBottom="0dp"
+                android:paddingTop="0dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginRight="0dp"
+                    android:layout_marginTop="0dp"
+                    android:maxWidth="120dp"
+                    android:minHeight="0dp"
+                    android:minWidth="120dp"
+                    android:text="Monday"
+                    android:textAlignment="center"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/monday"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginRight="0dp"
+                    android:layout_marginTop="0dp"
+                    android:maxWidth="120dp"
+                    android:minHeight="0dp"
+                    android:minWidth="120dp"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:text="TextView"
+                    android:textAlignment="center"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/buttonmonday"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxWidth="120dp"
+                    android:minWidth="120dp"
+                    android:text="Workout Plan"
+                    android:textSize="12sp"
+                    android:visibility="invisible" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tue"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:paddingBottom="0dp"
+                android:paddingTop="0dp">
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginRight="0dp"
+                    android:layout_marginTop="0dp"
+                    android:maxWidth="120dp"
+                    android:minHeight="0dp"
+                    android:minWidth="120dp"
+                    android:text="Tuesday"
+                    android:textAlignment="center"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/tuesday"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginRight="0dp"
+                    android:layout_marginTop="0dp"
+                    android:maxWidth="120dp"
+                    android:minHeight="0dp"
+                    android:minWidth="120dp"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:text="TextView"
+                    android:textAlignment="center"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/buttontuesday"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxWidth="120dp"
+                    android:minWidth="120dp"
+                    android:text="Workout Plan"
+                    android:textSize="12sp"
+                    android:visibility="invisible" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/wed"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:paddingBottom="0dp"
+                android:paddingTop="0dp">
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginRight="0dp"
+                    android:layout_marginTop="0dp"
+                    android:maxWidth="120dp"
+                    android:minHeight="0dp"
+                    android:minWidth="120dp"
+                    android:text="Wednesday"
+                    android:textAlignment="center"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/wednesday"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginRight="0dp"
+                    android:layout_marginTop="0dp"
+                    android:maxWidth="120dp"
+                    android:minHeight="0dp"
+                    android:minWidth="120dp"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:text="TextView"
+                    android:textAlignment="center"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/buttonwednesday"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxWidth="120dp"
+                    android:minWidth="120dp"
+                    android:text="Workout Plan"
+                    android:textSize="12sp"
+                    android:visibility="invisible" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/thu"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:paddingBottom="0dp"
+                android:paddingTop="0dp">
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginRight="0dp"
+                    android:layout_marginTop="0dp"
+                    android:maxWidth="120dp"
+                    android:minHeight="0dp"
+                    android:minWidth="120dp"
+                    android:text="Thursday"
+                    android:textAlignment="center"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/thursday"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginRight="0dp"
+                    android:layout_marginTop="0dp"
+                    android:maxWidth="120dp"
+                    android:minHeight="0dp"
+                    android:minWidth="120dp"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:text="TextView"
+                    android:textAlignment="center"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/buttonthursday"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxWidth="120dp"
+                    android:minWidth="120dp"
+                    android:text="Workout Plan"
+                    android:textSize="12sp"
+                    android:visibility="invisible" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/fri"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:paddingBottom="0dp"
+                android:paddingTop="0dp">
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginRight="0dp"
+                    android:layout_marginTop="0dp"
+                    android:maxWidth="120dp"
+                    android:minHeight="0dp"
+                    android:minWidth="120dp"
+                    android:text="Friday"
+                    android:textAlignment="center"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/friday"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginRight="0dp"
+                    android:layout_marginTop="0dp"
+                    android:maxWidth="120dp"
+                    android:minHeight="0dp"
+                    android:minWidth="120dp"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:text="TextView"
+                    android:textAlignment="center"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/buttonfriday"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxWidth="120dp"
+                    android:minWidth="120dp"
+                    android:text="Workout Plan"
+                    android:textSize="12sp"
+                    android:visibility="invisible" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/sat"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:paddingBottom="0dp"
+                android:paddingTop="0dp">
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginRight="0dp"
+                    android:layout_marginTop="0dp"
+                    android:maxWidth="120dp"
+                    android:minHeight="0dp"
+                    android:minWidth="120dp"
+                    android:text="Saturday"
+                    android:textAlignment="center"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/saturday"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginRight="0dp"
+                    android:layout_marginTop="0dp"
+                    android:maxWidth="120dp"
+                    android:minHeight="0dp"
+                    android:minWidth="120dp"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:text="TextView"
+                    android:textAlignment="center"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/buttonsaturday"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxWidth="120dp"
+                    android:minWidth="120dp"
+                    android:text="Workout Plan"
+                    android:textSize="12sp"
+                    android:visibility="invisible" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/sun"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:paddingBottom="0dp"
+                android:paddingTop="0dp">
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginRight="0dp"
+                    android:layout_marginTop="0dp"
+                    android:maxWidth="120dp"
+                    android:minHeight="0dp"
+                    android:minWidth="120dp"
+                    android:text="Sunday"
+                    android:textAlignment="center"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/sunday"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginRight="0dp"
+                    android:layout_marginTop="0dp"
+                    android:maxWidth="120dp"
+                    android:minHeight="0dp"
+                    android:minWidth="120dp"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:text="TextView"
+                    android:textAlignment="center"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/buttonsunday"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxWidth="120dp"
+                    android:minWidth="120dp"
+                    android:text="Workout Plan"
+                    android:textSize="12sp"
+                    android:visibility="invisible" />
+
+            </TableRow>
+
+        </TableLayout>
+
+
+    </ScrollView>
+</RelativeLayout>

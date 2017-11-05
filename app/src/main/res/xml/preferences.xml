@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <compat.preference.MultiSelectListPreferenceCompat
+            android:defaultValue="@array/multisellistpref_defvalues1"
+            android:entries="@array/multisellistpref_entries"
+            android:entryValues="@array/multisellistpref_entryValues1"
+            android:key="@string/prefs_key_text"
+            android:summary=""
+            android:title="@string/prefs_title_text" />
+
+        <compat.preference.MultiSelectListPreferenceCompat
+            android:defaultValue="@array/multisellistpref_defvalues2"
+            android:entries="@array/multisellistpref_entries"
+            android:entryValues="@array/multisellistpref_entryValues2"
+            android:key="key_text2"
+            android:summary=""
+            android:title="Tuesday" />
+
+        <compat.preference.MultiSelectListPreferenceCompat
+            android:defaultValue="@array/multisellistpref_defvalues3"
+            android:entries="@array/multisellistpref_entries"
+            android:entryValues="@array/multisellistpref_entryValues3"
+            android:key="key_text3"
+            android:summary=""
+            android:title="Wednesday" />
+
+        <compat.preference.MultiSelectListPreferenceCompat
+            android:defaultValue="@array/multisellistpref_defvalues4"
+            android:entries="@array/multisellistpref_entries"
+            android:entryValues="@array/multisellistpref_entryValues4"
+            android:key="key_text4"
+            android:summary=""
+            android:title="Thursday" />
+
+        <compat.preference.MultiSelectListPreferenceCompat
+            android:defaultValue="@array/multisellistpref_defvalues5"
+            android:entries="@array/multisellistpref_entries"
+            android:entryValues="@array/multisellistpref_entryValues5"
+            android:key="key_text5"
+            android:summary=""
+            android:title="Friday" />
+
+        <compat.preference.MultiSelectListPreferenceCompat
+            android:defaultValue="@array/multisellistpref_defvalues6"
+            android:entries="@array/multisellistpref_entries"
+            android:entryValues="@array/multisellistpref_entryValues6"
+            android:key="key_text6"
+            android:summary=""
+            android:title="Saturday" />
+
+        <compat.preference.MultiSelectListPreferenceCompat
+            android:defaultValue="@array/multisellistpref_defvalues7"
+            android:entries="@array/multisellistpref_entries"
+            android:entryValues="@array/multisellistpref_entryValues7"
+            android:key="key_text7"
+            android:summary=""
+            android:title="Sunday" />
+
+</PreferenceScreen>

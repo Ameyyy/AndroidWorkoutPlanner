@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="prefs_key_text">key_text1</string>
+    <string name="prefs_title_text">Monday</string>
+    <string name="prefs_summary_text">summary_text</string>
+
+</resources>

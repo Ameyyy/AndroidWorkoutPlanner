@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+   Copyright 2012 Haruki Hasegawa
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+ -->
+<resources>
+
+    <!-- default value -->
+    <string-array name="multisellistpref_defvalues1">
+        <item>Rest</item>
+    </string-array>
+
+    <string-array name="multisellistpref_defvalues2">
+        <item>Rest</item>
+    </string-array>
+
+    <string-array name="multisellistpref_defvalues3">
+        <item>Rest</item>
+    </string-array>
+
+    <string-array name="multisellistpref_defvalues4">
+        <item>Rest</item>
+    </string-array>
+
+    <string-array name="multisellistpref_defvalues5">
+        <item>Rest</item>
+    </string-array>
+
+    <string-array name="multisellistpref_defvalues6">
+        <item>Rest</item>
+    </string-array>
+
+    <string-array name="multisellistpref_defvalues7">
+        <item>Rest</item>
+    </string-array>
+
+    <!-- entry values -->
+    <string-array name="multisellistpref_entryValues1">
+        <item>Chest</item>
+        <item>Shoulders</item>
+        <item>Back</item>
+        <item>Biceps</item>
+        <item>Triceps</item>
+        <item>Legs</item>
+        <item>Cardio</item>
+        <item>Abs</item>
+        <item>Rest</item>
+    </string-array>
+
+    <string-array name="multisellistpref_entryValues2">
+        <item>Chest</item>
+        <item>Shoulders</item>
+        <item>Back</item>
+        <item>Biceps</item>
+        <item>Triceps</item>
+        <item>Legs</item>
+        <item>Cardio</item>
+        <item>Abs</item>
+        <item>Rest</item>
+    </string-array>
+
+    <string-array name="multisellistpref_entryValues3">
+        <item>Chest</item>
+        <item>Shoulders</item>
+        <item>Back</item>
+        <item>Biceps</item>
+        <item>Triceps</item>
+        <item>Legs</item>
+        <item>Cardio</item>
+        <item>Abs</item>
+        <item>Rest</item>
+    </string-array>
+
+    <string-array name="multisellistpref_entryValues4">
+        <item>Chest</item>
+        <item>Shoulders</item>
+        <item>Back</item>
+        <item>Biceps</item>
+        <item>Triceps</item>
+        <item>Legs</item>
+        <item>Cardio</item>
+        <item>Abs</item>
+        <item>Rest</item>
+    </string-array>
+
+    <string-array name="multisellistpref_entryValues5">
+        <item>Chest</item>
+        <item>Shoulders</item>
+        <item>Back</item>
+        <item>Biceps</item>
+        <item>Triceps</item>
+        <item>Legs</item>
+        <item>Cardio</item>
+        <item>Abs</item>
+        <item>Rest</item>
+    </string-array>
+
+    <string-array name="multisellistpref_entryValues6">
+        <item>Chest</item>
+        <item>Shoulders</item>
+        <item>Back</item>
+        <item>Biceps</item>
+        <item>Triceps</item>
+        <item>Legs</item>
+        <item>Cradio</item>
+        <item>Abs</item>
+        <item>Rest</item>
+    </string-array>
+
+    <string-array name="multisellistpref_entryValues7">
+        <item>Chest</item>
+        <item>Shoulders</item>
+        <item>Back</item>
+        <item>Biceps</item>
+        <item>Triceps</item>
+        <item>Legs</item>
+        <item>Cardio</item>
+        <item>Abs</item>
+        <item>Rest</item>
+    </string-array>
+
+    <!-- entries -->
+    <string-array name="multisellistpref_entries">
+        <item>Chest</item>
+        <item>Shoulders</item>
+        <item>Back</item>
+        <item>Biceps</item>
+        <item>Triceps</item>
+        <item>Legs</item>
+        <item>Cardio</item>
+        <item>Abs</item>
+        <item>Rest</item>
+    </string-array>
+
+</resources>
